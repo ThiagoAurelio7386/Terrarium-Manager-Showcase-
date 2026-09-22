@@ -1,0 +1,94 @@
+/*CSS do index.html*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0; /* Remove margens padrão */
+}
+
+body {
+  background-color: rgb(203, 253, 252); /* Cor desejada */
+}
+
+#header{
+ text-align: center; /*Cabeçario*/
+ padding: 10px;
+ background-color:rgb(30, 134, 134);
+ color:aqua;
+}
+
+#logo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(33, 180, 180);
+    border-radius: 5px;
+}
+
+#menu{ /*Menu da pagina principal*/
+    float:right; /*Posição dos botões de navegação, lado direito da tela*/
+    align-items: center;
+    list-style: none;
+    text-align: center; /*Posição do texto dos botões de navegação, centrados.*/
+    font-size: 25px;
+    padding: 20px 16px; /*medida para borda 25px 16px*/
+    border-radius: 3px; /*Arredonda caixa do menu*/ /*2px com borda*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 120px; /*Tamanho da coluna onde esta localizado o menu */
+    width: 300px; /*Largura dos botões de navegação, mais testes sugeridos, posição OG 300px*/
+    border: 4px groove rgb(30, 134, 134);
+    background-color: rgb(23, 199, 205);
+}
+
+
+a{
+    text-decoration: none;
+    position: sticky;
+    border-radius: 5px;
+    color: black; /*cor dos links não selecionados*/
+}
+
+ul a:hover{ /*efeito de link na pagina secundaria*/
+    position:sticky;
+    float: center;
+    background-color: rgb(34, 160, 160);
+    color: white; /*cor dos links selecionados*/
+    display: block;
+}
+
+nav ul li a:hover{ /*efeito de link no menu principal*/
+    position:sticky;
+    float: center;
+    background-color: rgb(34, 160, 160);
+    color: white; /*cor dos links selecionados*/
+    display: block;
+}
+
+#maintext{ /*Texto Menu principal*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: rgb(123, 217, 217);
+    height: max-content;
+    text-align: center;
+}
+
+#mainbackgroundimg{
+    background-image: url('Grama.png');
+    background-size: cover; /* A imagem cobre todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    width: 78%;
+    height: 98vh; /* Exemplo: altura total da tela */
+}
+
+#footer{ /*Fundo do menu principal*/
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: static;
+    text-align: end;
+    padding: 4px; /*Valor Orignal é 11px*/
+    /*margin-top: 5vh;*/
+    background-color: rgb(6, 215, 215); /* Testar rgb(6, 215, 215)*/
+    border: 8px solid rgb(30, 160, 160);
+}

@@ -1,0 +1,98 @@
+/*CSS do Credits.html*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0; /* Remove margens padrão */
+}
+
+body {
+  background-color: rgb(203, 253, 252); /* Cor desejada */
+}
+
+#header{
+ text-align: center; /*Cabeçario*/
+ padding: 10px;
+ background-color:rgb(30, 134, 134);
+ color:aqua;
+}
+
+#logo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(33, 180, 180);
+    border-radius: 5px;
+}
+
+#menu2{
+    float: right;
+    z-index: 10;
+    position: absolute;
+    background-color: rgb(24, 216, 222);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 20px;
+     /*border: 4px dashed rgb(30, 134, 134);*/ /*Versão "caixa com profundidade"*/
+     border: 4px ridge rgb(30, 134, 134); /*Versão "caixa tracejada"*/
+    /*border-radius: 1px;*/
+
+}
+
+
+a{
+    text-decoration: none;
+    position: sticky;
+    border-radius: 5px;
+    color: black; /*cor dos links não selecionados*/
+}
+
+ul a:hover{ /*efeito de link na pagina secundaria*/
+    position:sticky;
+    float: center;
+    background-color: rgb(34, 160, 160);
+    color: white; /*cor dos links selecionados*/
+    display: block;
+}
+
+
+#maintext2{ /*Texto de fundo, centrado*/
+    z-index: 9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: rgb(123, 217, 217);
+    height: max-content;
+    text-align: center;
+}
+
+#Text2{ /*texto no container*/
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 238, 238);
+    align-items: center;
+    height: 80vh;
+    width: 500px;
+    padding: 70;
+    border: 5px groove rgb(30, 160, 160);
+}
+
+
+#footer2{ /*Footer das paginas secundarias*/
+    height: 5.5vh;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: static;
+    text-align: end;
+    padding: 11px;
+    /*margin-top: 5vh;*/
+    background-color: rgb(6, 215, 215); /* Testar rgb(6, 215, 215)*/
+    border: 8px solid rgb(30, 160, 160);
+  
+}

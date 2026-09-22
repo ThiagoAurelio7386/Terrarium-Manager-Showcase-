@@ -1,0 +1,134 @@
+/*CSS das páginas dos terrários*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0; /* Remove margens padrão */
+}
+
+body {
+  background-color: rgb(132, 225, 225); /* Cor desejada */
+  /*background-color: rgb(203, 253, 252);*/ /*cor original*/
+}
+
+#header{
+ text-align: center; /*Cabeçario*/
+ padding: 10px;
+ background-color:rgb(30, 134, 134);
+ color:aqua;
+}
+
+#logo{ /*Parte do cabeçario*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(33, 180, 180);
+    border-radius: 5px;
+}
+
+#menu{ /*Botão com link*/
+    display: flex;
+    float: left;
+    background-color: rgb(24, 216, 222);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 15px;
+    /*margin-right: 100%;*/
+    /*margin-bottom: 10px;*/
+     border: 4px ridge rgb(30, 134, 134);
+    /*border-radius: 1px;*/
+}
+
+#menu2{ /*Botão com link*/
+    float: left;
+    background-color: rgb(24, 216, 222);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 15px;
+    /*margin-right: 100%;*/
+    margin-bottom: 1px;
+     border: 4px ridge rgb(30, 134, 134);
+    /*border-radius: 1px;*/
+}
+
+#menu3{ /*Espaço embaixo dos menus, essencial para estetica da pagina*/
+    float: left;
+    font-size: 1px;
+    margin-right: 100%;
+    margin-bottom: 1px;
+    color: rgb(203, 253, 252);
+}
+
+nav{
+    background: rgb(24, 216, 222);
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    position:sticky;
+    float: center;
+    background-color: rgb(34, 160, 160);
+    color: white; /*cor dos links selecionados*/
+    display: block;
+}
+
+
+#maintext{ /*segundo fundo*/
+    z-index: 9;
+    position: relative;
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: rgb(123, 217, 217);
+    height: max-content;
+}
+
+#Text{ /*texto no container*/
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 238, 238);
+    text-align: left;
+    min-height: 80%;
+    height: 90%;
+    width: 1400px;
+    padding: 70;
+    border: 5px groove rgb(30, 160, 160);
+}
+
+
+#footer{ /*Footer das paginas secundarias*/
+    height: 6.2vh;
+    font-size: 5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: static;
+    text-align: end;
+    padding: 5px;
+    /*margin-top: 5vh;*/
+    background-color: rgb(6, 215, 215); /* Testar rgb(6, 215, 215)*/
+    border: 8px solid rgb(30, 160, 160); 
+}
